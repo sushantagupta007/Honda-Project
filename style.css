@@ -1,0 +1,221 @@
+html{
+    font-size:62.5%
+}
+body{
+    font-family: 'Inter','Poppins',sans-serif;
+    
+}
+
+/* Header CSS Start */
+    /* NavBar */
+    header{
+        background: #264653;
+    }
+    /* AddSection */
+    #headerAddDesTitle{
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 1.4rem;
+        color:#FFFFFF;
+    }
+    #headerAddDes h1{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 4.8rem;
+        color: #FFFFFF;
+    }
+
+    #headerAddDesInfo{
+        font-family: 'Poppins';
+        font-weight: 300;
+        font-size: 1.6rem;
+        color: #E0E0E0;
+    }
+    .purchaseButton{
+        width:16.8rem;
+        height:44.rem;
+        background: #E76F51 !important;
+        border-radius: 0.5rem !important;
+        color:#FFFFFF;
+        font-size: 1.6rem;
+        font-family: 'Poppins';
+        font-weight: 500;
+    }
+
+    #headerAddImage img{
+        width:100%;
+    }
+/* Header CSS End */
+/* Main CSS Start */
+
+    /* featureBike */
+    .biketitle{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 3.0rem;
+        color: #000000;
+    }   
+    #bestBike{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: #E76F51;
+    }   
+    #featureBikeTitle::after{
+        border-bottom: 1rem solid black;
+    }
+    .bikeSize{
+        width:29.0rem;
+        height:24.3rem;
+    }
+    .individualBike img{
+        width:100%;
+    }
+    .grayScaleBike img{
+        filter: grayscale(100%);
+    }
+    /* Latest News */
+    #latestNews h3{
+        text-align: center;
+    }
+    /* Bike Card */
+    .cardSize{
+        width:100% !important;
+        padding:1.0rem !important;       
+        box-sizing: border-box !important;
+    }
+    
+    #cardImage img{
+        width:100%;
+    }
+    #cardDetails p{
+        font-family: 'Poppins';
+        font-size: 1.4rem;
+        color: #6C6C6C;
+    }
+    #cardDetails h5{
+        font-family: 'Poppins' !important;
+        font-weight: 600 !important;
+        font-size: 2.4rem !important;
+        color: #18191F !important;
+    }
+    .readMoreButton{
+        background: #E76F51;
+        border-radius: 5rem;
+        color:white;
+        width: 16.0rem;
+        height: 5.7rem;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 1.8rem;
+        padding:1.5rem;
+    }
+
+    /* Client Section CSS */
+    #clientSection h3{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 7.2rem;
+        color: #0A0826;
+    }
+    .clientPicSize{
+        width:14.9rem;
+        height:14.9rem;
+    }
+    .clientPicSize img{
+        width:100%;
+    }
+    .cardDesSize{
+        width:30rem;
+        height:25rem;
+    }
+    .cardDescrition{
+        font-family: 'Poppins';
+        font-size: 1.4rem;
+        text-align: center;
+        letter-spacing: 0.2rem;
+        color: #6C6C6C;
+    }
+    .fontAweSomeList{
+        list-style-type: none;
+        margin-right:0.1rem;
+    }
+    .fontAweSomeList i{
+        margin-right:0.5rem;
+        color:#E77C40;
+    }
+   .clientName{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    color:#23A6F0;
+   }
+   .clientProfession{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    color: #252B42;
+   }
+
+/* FaqSection */
+   .faqImage{
+       width:100%;
+       height:auto;
+   }
+   .faqImage img{
+       width:100%;
+   }
+    /* Accordion Section    */
+    .customAccordionTitle{
+        font-family: 'Inter' !important;
+        font-weight: 500 !important;
+        font-size: 2.0rem !important;
+        color: #383838 !important;
+        background: none !important;
+    }
+    .customAccordionBody{
+        font-family: 'Inter';
+        font-weight: normal;
+        font-size: 1.6rem;
+        color: #7E848C;
+    }
+/* Footer CSS */
+    #footer{
+        background:#0B0D17;
+    }
+    .footerLink li{
+        list-style-type:none;
+    }
+    .footerLink a{
+        margin-right: 1.5rem;
+        text-decoration: none;
+        color:white;
+    }
+    
+.progressFontSize{
+    font-size: 1.5em;
+}
+
+/* Media Query */
+@media (max-width:576px){
+    #cardDetails p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .readMoreButton{
+        width: 12.0rem;
+        height: 2.7rem;
+        font-size: 1.2rem;
+        padding:0.5rem;
+    }
+    #cardDetails{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
